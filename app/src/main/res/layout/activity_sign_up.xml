@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:background="@color/colorBg">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/UserName2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_user"
+        android:ems="10"
+        android:hint="Username"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/Password2"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/Password3"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:ems="10"
+        android:hint="Confirm password"
+        android:textColorHint="@color/white"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:layout_marginTop="460dp"
+        android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="530dp" />
+    </RelativeLayout>
+</RelativeLayout>
